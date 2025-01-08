@@ -17,6 +17,6 @@ d) Compute the Jordan-Wigner transformation for the dual Hamiltonian built-in it
    Initially, we tried to use the format of the QA used in Whaley's paper about this topic. However, as they used another kind of ansatz that model complicated too much and was not suitable for our problem.
    So, to try to reduce the complexity we adopted a straightforward approach.
 
-   e)Compute the overlap matrix elements in a quantum simulator using all the files generated as output of the previous steps.
-   f)Compute the Hamiltonian matrix elements in a quantum simulator .
+   e)Compute the overlap matrix elements in a quantum simulator using all the files generated as output of the previous steps;
+   f)Compute the Hamiltonian matrix elements in a quantum simulator.
 
