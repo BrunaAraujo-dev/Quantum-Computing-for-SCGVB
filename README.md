@@ -10,13 +10,13 @@ The workflow consists of two major parts:
 
 The following steps are executed using classical computing resources:
 
-a) **Construct Non-Orthogonal (NO) Orbitals**: Use PySCF to build NO orbitals and save the output file.
+a) **Construct Non-Orthogonal Orbitals (NO)**: Use PySCF to build NO orbitals and save the output file.
 
 b) **Compute Integrals**: Calculate one- and two-body integrals based on the NO orbitals generated in the previous step and save the output file.
 
 c) **Build the Dual *Ab Initio* Hamiltonian**: Using the transformed integrals and orthogonal orbitals, construct the dual Hamiltonian and save the output file.
 
-d) **Jordan-Wigner Transformation for NO Orbitals**: Perform the Jordan-Wigner transformation for the NO orbitals computed in step (a) and save the output file. This transformation will be used when considering the bra vector of each determinant for computing the matrix elements.
+d) **Jordan-Wigner Transformation for NO**: Perform the Jordan-Wigner transformation for the NO orbitals computed in step (a) and save the output file. This transformation will be used when considering the bra vector of each determinant for computing the matrix elements.
 
 e) **Jordan-Wigner Transformation for the Dual Hamiltonian**: Perform the Jordan-Wigner transformation on the dual Hamiltonian built in step (c). This step involves a standard JW mapping, and the output file is saved.
 
